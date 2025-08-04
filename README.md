@@ -1,62 +1,72 @@
 # 🎬 Netflix Data Analysis & Visualization using Python
 
-This is a one-day data analysis project where I explored the Netflix Movies and TV Shows dataset using Python. The goal was to generate meaningful insights and visualizations by analyzing the type of content, its country-wise distribution, yearly trends, and top genres.
+Hey there!  
+This is a basic data analysis project I worked on using a Netflix dataset. I mainly used Python, Pandas, Matplotlib, and Seaborn for this. The goal was to explore the content available on Netflix and find some interesting patterns and insights.
 
-## 📌 Key Objectives
+---
 
-- Analyze distribution between Movies and TV Shows on Netflix.
-- Identify top 10 countries contributing content.
-- Visualize yearly trends of new content added to Netflix.
-- Determine the top genres dominating Netflix's library.
+## 🔍 What I Did
 
-## 🛠️ Tech Stack & Tools
+- I started by loading and cleaning the dataset.
+- Removed duplicates and missing values.
+- Analyzed things like:
+  - Total number of Movies vs TV Shows
+  - Top genres and their trends
+  - Country-wise content distribution
+  - Content added over the years
+  - Most frequent actors/directors
+  
+I used visualizations to make the analysis easier to understand. Most graphs are done using Seaborn and Matplotlib.
 
-- **Python**
-- **Pandas** – data cleaning & manipulation  
-- **Matplotlib & Seaborn** – data visualization
+---
 
-## 📊 Sample Visualizations
+## 📊 Tools & Libraries Used
 
-- Movies vs TV Shows count  
-- Country-wise content distribution  
-- Year-wise addition trend  
-- Top 10 genres by frequency  
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- VScode
 
-(You can check the images in the `/outputs` or generated directly via the script.)
+---
 
-## 📂 Dataset
+## 📁 Dataset Info
 
-- Dataset used: [Netflix Movies and TV Shows](https://www.kaggle.com/datasets/shivamb/netflix-shows)
-- File: `netflix_titles.csv`
+- I used the publicly available **Netflix Movies and TV Shows dataset** (you can find it on Kaggle).
+- It includes details like title, director, cast, country, date added, release year, rating, duration, genre, etc.
 
-## 🚀 How to Run the Project
+---
 
-1. Clone the repository:
+## 💡 Key Insights
+
+- Netflix has more movies than TV shows overall.
+- The most common genre is Drama.
+- The majority of Netflix content comes from the United States and India.
+- A major increase in content addition started around 2016–2017.
+- Some actors and directors appear very frequently in the listings.
+
+---
+
+## 🚀 How to Run
+
+1. Make sure you have Python installed.
+2. Install required libraries if not already installed:
+
    ```bash
-   git clone https://github.com/adityavishwakarma02/Netflix-Data-Analysis.git
-   cd Netflix-Data-Analysis
+   pip install pandas matplotlib seaborn
 
-2. Install required libraries:
-
-pip install pandas matplotlib seaborn
-
-
-3. Make sure netflix_titles.csv is present in the same directory.
-
-
-4. Run the script:
-
-python Netflix_Analysis.py
-
-
-5. Output plots will be saved automatically in the project folder.
+3. Open the .ipynb file in Jupyter Notebook or VS Code and run the cells step by step.
 
 
 
-📢 About the Project
 
-This project helped me sharpen my Python and data visualization skills. It's a beginner-friendly data analysis project that demonstrates storytelling with real-world data.
+---
+
+📌 Why I Built This
+
+I wanted to practice data analysis using a real-world dataset. Netflix is something most of us use, so this dataset was relatable and fun to explore.
 
 🔗 Connect with Me
 
-LinkedIn ----  https://www.linkedin.com/in/aditya-d-831829256/
+LinkedIn ----  https://www.linkedin.com/in/dhimanadi
